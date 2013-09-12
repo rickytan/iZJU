@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="font_color">#E0EAF3</color>
+    <color name="font_blue">#00498D</color>
+    <color name="font_grayblue">#8195A0</color>
+    <color name="font_red">#F16B50</color>
+    <color name="font_black">#000</color>
+    <color name="font_gray">#A0A0A0</color>
+    <color name="bg_gray">#A0A0A0</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_red">#FF0000</color>
+    <color name="edt_frame_color">#33b6e6</color>
+</resources>

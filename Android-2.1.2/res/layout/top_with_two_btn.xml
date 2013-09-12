@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/bg_top" >
+
+        <TextView
+            android:id="@+id/top_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/meishi"
+            android:textColor="@color/font_color"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/top_bak_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="19dp"
+            android:background="@drawable/bg_back"
+            android:text="@string/fanhui"
+            android:textColor="@color/font_color" />
+
+        <Button
+            android:id="@+id/top_btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="19dp"
+            android:background="@drawable/bg_back"
+            android:text="@string/dummy"
+            android:textColor="@color/font_color" />
+
+</RelativeLayout>

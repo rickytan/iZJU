@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>基本设置</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>DefaultValue</key>
+			<string>http://zju.superlib.com</string>
+			<key>Title</key>
+			<string>图书馆</string>
+			<key>Titles</key>
+			<array>
+				<string>超星移动图书馆</string>
+				<string>书生移动图书馆</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>http://zju.superlib.com</string>
+				<string>http://zju.ddlib.com/ddlib/</string>
+			</array>
+			<key>Key</key>
+			<string>id_library_link</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>DefaultValue</key>
+			<string>2.1.1</string>
+			<key>Title</key>
+			<string>版本</string>
+			<key>Key</key>
+			<string>id_app_version</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>关于</string>
+			<key>File</key>
+			<string>About</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

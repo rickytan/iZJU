@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp" >
+
+    <Button
+        android:id="@+id/btn_more"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@drawable/bg_btn_more"
+        android:text="@string/more_post" />
+
+</LinearLayout>

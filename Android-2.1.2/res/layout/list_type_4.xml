@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_content_repeat"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/top"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_jiaoliu_title"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:id="@+id/list_type_4_title_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:text="@string/kongbai"
+                android:textColor="@color/font_color"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/list_type_4_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/bg_btn_yuding" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView_list_4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2px"
+            android:layout_marginRight="2px"
+            android:layout_weight="1"
+            android:divider="@drawable/bg_split_2"
+            android:scrollbars="none" >
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

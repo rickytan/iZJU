@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>        iZJU是由浙大学生团队独立开发，应用基于校园信息与生活，服务广大同学。致力于为求是学子，校友以及热爱者提供一个随时随地了解校园信息和提供便捷生活的窗口，实现校园生活的移动化。是浙大文化，信息，精神的载体以及发扬者。第一阶段功能模块包括，校园活动、对外交流、就业实习、浙大百科、美食、校车、住宿、紧急电话、图书馆和地图。 </string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>        我们的口号是：做浙大人自己的校园信息与生活移动平台，把世界放在掌中，让浙大在指尖滑动！</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>微博：iZJU工作室
+http://weibo.com/izjuizju
+人人主页：iZJU 
+http://page.renren.com/601541627</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/push" >
+        <CheckBoxPreference
+            android:key="@string/key_push"
+            android:persistent="true"
+            android:summary="@string/allow_pn"
+            android:title="@string/push" 
+            android:defaultValue="true"/>
+
+        <org.izju.push.PushTimeDlgPreference
+            android:dialogLayout="@layout/push_time_set_dialog"
+            android:dialogTitle="@string/set_push_time"
+            android:key="@string/key_push_time"
+            android:negativeButtonText="@string/cancel"
+            android:persistent="true"
+            android:positiveButtonText="@string/setting"
+            android:title="@string/push_time" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,187 @@
+<resources>
+
+    <string name="app_name">iZJU</string>
+    <string name="meishi">美食</string>
+    <string name="fanhui">返回</string>
+    <string name="version">Version 1.0</string>
+    <string name="huodong">校园活动</string>
+    <string name="jiaoliu">对外交流</string>
+    <string name="xiaoche">校车</string>
+    <string name="baike">浙大百科</string>
+    <string name="zhusu">住宿</string>
+    <string name="dianhua">紧急电话</string>
+    <string name="phone">电话：</string>
+    <string name="lianxidianhua">联系电话：</string>
+    <string name="rizu">日租</string>
+    <string name="kongbai" />
+    <string name="chaxunxiaoche">查 询 校 车</string>
+    <string name="chufadi">出发地：</string>
+    <string name="mudidi">目的地：</string>
+    <string name="chufashijian">出发时间：</string>
+    <string name="bancimingcheng">班次名称：</string>
+    <string name="beizhuxinxi">备注信息：</string>
+    <string name="yunxingshijian">运行时间：</string>
+    <string name="shangchedidian">上车地点：</string>
+    <string name="dizhi">地址：</string>
+    <string name="renjun">人均：</string>
+    <string name="tuijiancai">推荐菜：</string>
+    <string name="youhui">优惠：</string>
+    <string name="guimo">聚餐规模：</string>
+    <string name="beizhu">备注：</string>
+    <string name="remenmeishi">热门美食</string>
+    <string name="remenwaimai">热门外卖</string>
+    <string name="jiuye">就业实习</string>
+    <string name="yijian">意见反馈</string>
+    <string name="dummy"></string>
+    <string name="setting">设置</string>
+    <string name="setting_allow_pn">自动推送</string>
+    <string name="allow_pn">是否允许自动推送</string>
+    <string name="push">推送</string>
+    <string name="from">从</string>
+    <string name="to">到</string>
+    <string name="set_push_time">设置推送起始时间</string>
+    <string name="cancel">取消</string>
+    <string name="key_push">AUTO_PUSH</string>
+    <string name="key_push_time">PUSH_TIME</string>
+    <string name="push_time">推送起始时间</string>
+    <string name="push_time_error">结束时间不应早于开始时间</string>
+    <string name="push_time_summary_format" formatted="false">        在%02d:00～%02d:00时间段接收推送消息</string>
+    <string name="notification">通知</string>
+    <string name="post">跟帖</string>
+    <string name="send_post">发表</string>
+    <string name="long_time_ago">n天前</string>
+    <string name="day_ago">天前</string>
+    <string name="hour_ago">小时前</string>
+    <string name="minute_ago">分钟前</string>
+    <string name="second_ago">秒前</string>
+    <string name="just_now">刚刚</string>
+    <string name="loading">正在加载，请稍候…</string>
+    <string name="up_post_format">顶[%d]</string>
+    <string name="copy">复制</string>
+    <string name="reply">回复</string>
+    <string name="copy_success">跟帖已复制</string>
+    <string name="user_name">iZJU Android手机党</string>
+    <string name="error_post_length">跟帖不能为空</string>
+    <string name="post_success">发帖成功</string>
+    <string name="no_post">暂无跟帖</string>
+    <string name="more_post">更多跟帖</string>
+    <string name="loading_more_post">正在加载更多跟帖…</string>
+    <string name="load_all_post">已加载所有</string>
+    <string name="ref_description">说：</string>
+    <string name="mobile_lib">图书馆β</string>
+    <string name="write_post">说两句吧，亲！</string>
+    <string name="up_one">+1</string>
+    <string name="up_description">顶一下</string>
+    <string name="hot_post">热门跟帖</string>
+    <string name="latest_post">最新跟帖</string>
+    <string name="already_up">已顶过</string>
+    <string name="sending_post">发送中…</string>
+    <string name="network_error">网络故障</string>
+    <string name="network_restore">网络恢复</string>
+    <string name="app_description">浙江大学移动校园应用平台Android版</string>
+    <string name="copyright">        Copyright 2012 iZJU Studio. All right reserved.</string>
+    <string name="official_net">http://www.izju.org</string>
+    <string name="official_download">官方主页</string>
+    <string name="official_email">contact@izju.org</string>
+    <string name="contact_us">联系我们</string>
+    <string name="guide">按返回键开始体验</string>
+    <string name="operation_canceled">操作取消</string>
+    
+    
+    <!-- WIFI Authorization -->
+    <string name="wifi_authorization">WiFi一键认证</string>
+    <string name="wifi_login">一键登录</string>
+    <string name="no_available_wifi">wifi未连接或没有zjuwlan、cernet</string>
+    <string name="select_one_wifi">选择一个wifi进行认证</string>
+    <string name="already_login">已登录</string>
+    <string name="testing_wifi">正在尝试连入Internet…</string>
+    <string name="auth_fail">认证失败</string>
+    <string name="switch_wifi">切换网络</string>
+    <string name="login_on_connect">连入自动认证</string>
+    <string name="login_on_offline">断线自动认证</string>
+    <string name="wifi_disabled">WIFI未打开</string>
+    <string name="no_wifi_connect">未连接到任何WIFI</string>
+    <string name="connect_to">已连接到</string>
+
+    <string-array name="authorization_wifis">
+        <item>ZJUWLAN</item>
+        <item>cernet</item>
+    </string-array>
+
+    <string name="auth_username">用户名:</string>
+    <string name="auth_password">密码:</string>
+    <string name="setting_username_password">设置用户名和密码</string>
+    <string name="ok">确定</string>
+    <string name="no_username_password">未设置用户名和密码</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="login_success">登录成功</string>
+    <string name="logout">点击注销</string>
+    <string name="restart_wifi">若多次出现未知错误，可考虑重启WI-FI后，重试</string>
+
+    <!-- wifi error description -->
+    <string-array name="error_descriptions">
+
+        <!-- user_tab_error -->
+        <item>认证程序未启动</item>
+
+        <!-- Token error -->
+        <item>令牌错误，请检查重新认证</item>
+
+        <!-- username_error -->
+        <item>用户名错误</item>
+
+        <!-- non_auth_error -->
+        <item>无须认证，可直接上网</item>
+
+        <!-- password_error -->
+        <item>密码错误</item>
+
+        <!-- status_error -->
+        <item>您已欠费</item>
+
+        <!-- available_error -->
+        <item>已禁用</item>
+
+        <!-- ip_exist_error -->
+        <item>IP尚未下线</item>
+
+        <!-- usernum_error -->
+        <item>总用户数已达上限</item>
+
+        <!-- online_num_error -->
+        <item>帐号的登录人数已超过限额</item>
+
+        <!-- mode_error -->
+        <item>系统已禁止WEB方式登录</item>
+
+        <!-- time_policy_error -->
+        <item>当前时段不允许连接</item>
+
+        <!-- flux_error -->
+        <item>流量已超支</item>
+        
+        <!-- minutes_error -->
+        <item>时长已超支</item>
+        
+        <!-- ip_error -->
+        <item>地址不合法</item>
+        
+        <!-- mac_error -->
+        <item>MAC地址不合法</item>
+        
+        <!-- sync_error -->
+        <item>用户的资料被修改，正在同步</item>
+    </string-array>
+    <string name="account_manage">帐号管理</string>
+    <string name="no_account">未添加帐号</string>
+    <string name="logout_ok">注销成功</string>
+    <string name="logout_fail">注销失败</string>
+    <string name="logining">正在登录,请稍候…</string>
+    <string name="add_account">添加帐号</string>
+    <string name="account_del">删除</string>
+    <string name="account_edit">编辑</string>
+    <string name="account_set_default">设为默认登录帐号</string>
+    <string name="confirm_delete_account">确定删除该帐号吗？</string>
+    <string name="illegal_info">用户名密码不能为空</string>
+
+</resources>

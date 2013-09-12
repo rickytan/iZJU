@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_content_repeat"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/top_with_two_btn" />
+    
+    <LinearLayout 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px">        
+    </LinearLayout>
+    
+    <include android:id="@+id/include2"
+        layout="@layout/post_zone" />
+    
+    <LinearLayout
+        android:id="@+id/layout_huodong_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/include1"
+        android:layout_above="@id/include2"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/huodong_detail_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_jiaoliu_title"
+            android:padding="20dp"
+            android:text="@string/kongbai"
+            android:textColorLink="@color/font_color"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/scrollView_activity_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_huodong_item"
+                    android:padding="15dp" >
+
+                    <TextView
+                        android:id="@+id/textview1000"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="时间："
+                        android:textColor="@color/font_blue" />
+
+                    <TextView
+                        android:id="@+id/huodong_detail_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kongbai"
+                        android:textColor="@color/font_black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_huodong_item"
+                    android:padding="15dp" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="地点："
+                        android:textColor="@color/font_blue" />
+
+                    <TextView
+                        android:id="@+id/huodong_detail_place"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kongbai"
+                        android:textColor="@color/font_black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_huodong_item"
+                    android:padding="15dp" >
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="简介："
+                        android:textColor="@color/font_blue" />
+
+                    <TextView
+                        android:id="@+id/huodong_detail_introduction"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web|email"
+                        android:text="@string/kongbai"
+                        android:textColor="@color/font_black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_huodong_item"
+                    android:padding="15dp" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="主办："
+                        android:textColor="@color/font_blue" />
+
+                    <TextView
+                        android:id="@+id/huodong_detail_zhuban"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kongbai"
+                        android:textColor="@color/font_black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_huodong_item"
+                    android:padding="15dp" >
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="承办："
+                        android:textColor="@color/font_blue" />
+
+                    <TextView
+                        android:id="@+id/huodong_detail_chengban"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kongbai"
+                        android:textColor="@color/font_black" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

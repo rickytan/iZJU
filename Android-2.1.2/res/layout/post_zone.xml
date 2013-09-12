@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.izju.post.PostZone xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/send_post_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/bg_post_zone"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="13dp"
+    android:paddingBottom="7dp"
+    android:gravity="center"
+    android:layout_gravity="bottom" >
+
+    <EditText
+        android:id="@+id/edt_post_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bg_post_edt"
+        android:hint="@string/write_post"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/icon_write_post"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/send_post_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/font_color"
+        android:background="@drawable/bg_send_post"
+        android:text="@string/send_post" />
+
+</org.izju.post.PostZone>

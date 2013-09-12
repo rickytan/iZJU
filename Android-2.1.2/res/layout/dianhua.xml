@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_content_repeat"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top" />
+
+    <ListView
+        android:id="@+id/listView_dianhua"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:divider="@drawable/bg_content_repeat"
+        android:dividerHeight="10dp"
+        android:listSelector="@drawable/list_selector"
+        android:scrollbars="none" >
+</ListView>
+    
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/jiaoliu_detail_key"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="TextView"
+        android:textColor="@color/font_blue" />
+
+    <TextView
+        android:id="@+id/jiaoliu_detail_value"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:autoLink="web|email"
+        android:textColor="@color/font_black" />
+    
+</LinearLayout>

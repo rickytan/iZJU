@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>EGOPullRefresh.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MWFeedParser.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>ShareKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>iZJU manager.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>iZJU.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9C04FD6816A061C7009A9DC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9C1D9D0B16487C72003926A8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9C3257F4166FD5DA00AFB9AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9CED1B1C166CFBA600F7EFC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF3CE41815DFE5D100FB7897</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

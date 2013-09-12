@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top"/>
+
+    <ImageView
+        android:id="@+id/index_bg_img"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_food" />
+
+    <ListView
+        android:id="@+id/listview_index"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/blue_gradient"
+        android:divider="@drawable/bg_split"
+        android:scrollbars="none" >
+
+    </ListView>
+
+</LinearLayout>
