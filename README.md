@@ -56,8 +56,6 @@ iZJU 是由一群有热情、有激情做好每件事的学生团队打造，以
 #下载
 [![App Store](https://dl.dropboxusercontent.com/u/46239535/images/appstore.jpeg)](https://itunes.apple.com/cn/app/izju/id573810521?mt=8)
 
-[![Google Play](https://dl.dropboxusercontent.com/u/46239535/images/googleplay.jpeg)](http://www.izju.org/download/)
-
 ![QR Code](https://dl.dropboxusercontent.com/u/46239535/images/izju-qrcode.png "二维码")
 
 
